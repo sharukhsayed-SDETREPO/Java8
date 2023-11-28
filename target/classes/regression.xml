@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CRMPRO Test Automation regression suite" thread-count="3" parallel="tests" verbose="9"> 
+
+<test name="CRMPRO LoginTest ">
+<parameter name="browser" value="chrome"/>
+<classes>
+
+ <class name="com.mytest.LoginPageTest"/>
+
+</classes>
+</test>
+
+
+<test name="CRMPRO HomepageTest">
+<parameter name="browser" value="IE" />
+<classes>
+<class name="com.mytest.HomePagetest"/>
+</classes>
+</test>
+
+
+
+<!-- <test name="Firefox test">
+<parametr name="browser" value="chrome" />
+<classes name="com.qa.hubspot.test.LoginPageTest">
+</classes>
+</test>
+ -->
+
+
+</suite>

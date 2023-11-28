@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRMPRO Test Automation regression suite" duration-ms="131661" started-at="2023-11-23T14:18:55Z" finished-at="2023-11-23T14:21:07Z">
+    <groups>
+    </groups>
+    <test name="CRMPRO LoginTest " duration-ms="51372" started-at="2023-11-23T14:18:55Z" finished-at="2023-11-23T14:19:47Z">
+      <class name="com.mytest.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mytest.LoginPageTest@5442a311]" name="setup" is-config="true" duration-ms="19903" started-at="2023-11-23T14:18:55Z" finished-at="2023-11-23T14:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gettitletforLoginPage()[pri:0, instance:com.mytest.LoginPageTest@5442a311]" name="gettitletforLoginPage" duration-ms="24598" started-at="2023-11-23T14:19:15Z" finished-at="2023-11-23T14:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitletforLoginPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mytest.LoginPageTest@5442a311]" name="teardown" is-config="true" duration-ms="6573" started-at="2023-11-23T14:19:40Z" finished-at="2023-11-23T14:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mytest.LoginPageTest -->
+    </test> <!-- CRMPRO LoginTest  -->
+    <test name="CRMPRO HomepageTest" duration-ms="131661" started-at="2023-11-23T14:18:55Z" finished-at="2023-11-23T14:21:07Z">
+      <class name="com.mytest.HomePagetest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mytest.HomePagetest@1e397ed7]" name="setup" is-config="true" duration-ms="119172" started-at="2023-11-23T14:18:55Z" finished-at="2023-11-23T14:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gettitletforLoginPage()[pri:0, instance:com.mytest.HomePagetest@1e397ed7]" name="gettitletforLoginPage" duration-ms="30" started-at="2023-11-23T14:20:54Z" finished-at="2023-11-23T14:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitletforLoginPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mytest.HomePagetest@1e397ed7]" name="teardown" is-config="true" duration-ms="12416" started-at="2023-11-23T14:20:55Z" finished-at="2023-11-23T14:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mytest.HomePagetest -->
+    </test> <!-- CRMPRO HomepageTest -->
+  </suite> <!-- CRMPRO Test Automation regression suite -->
+</testng-results>
